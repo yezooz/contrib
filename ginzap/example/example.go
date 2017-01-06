@@ -17,7 +17,7 @@ func main() {
 		zap.DebugLevel,
 	)
 
-	// Add a ginrus middleware, which:
+	// Add a ginzap middleware, which:
 	//   - Logs all requests, like a combined access and error log.
 	//   - Logs to stdout.
 	//   - RFC3339 with UTC time format.
