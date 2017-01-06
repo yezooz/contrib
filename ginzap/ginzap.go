@@ -7,10 +7,10 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// Ginrus returns a gin.HandlerFunc (middleware) that logs requests using logrus.
+// Ginzap returns a gin.HandlerFunc (middleware) that logs requests using uber-go/zap.
 //
-// Requests with errors are logged using logrus.Error().
-// Requests without errors are logged using logrus.Info().
+// Requests with errors are logged using zap.Error().
+// Requests without errors are logged using zap.Info().
 //
 // It receives:
 //   1. A time package format string (e.g. time.RFC3339).
